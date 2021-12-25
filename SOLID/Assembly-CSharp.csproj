@@ -52,10 +52,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ColorHandler.cs" />
-     <Compile Include="Assets\Scripts\Logger.cs" />
-     <Compile Include="Assets\Scripts\CheckInput.cs" />
-     <Compile Include="Assets\Scripts\ColorChanger.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\ColorHandler.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\Logger.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\CheckInput.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\ColorChanger.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\Coin.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\ISpecification.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\IFilter.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\FilterObjects.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
