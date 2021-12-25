@@ -65,6 +65,13 @@
      <Compile Include="Assets\Scripts\Liskov_Substitution\Circle.cs" />
      <Compile Include="Assets\Scripts\Liskov_Substitution\Square.cs" />
      <Compile Include="Assets\Scripts\Liskov_Substitution\React.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\IPickableItem.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Crate.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\ItemInterfaces.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Coin.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Rock.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Wand.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Apple.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
