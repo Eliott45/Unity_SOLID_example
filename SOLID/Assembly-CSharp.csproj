@@ -53,25 +53,35 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Single_Responsibility\ColorHandler.cs" />
-     <Compile Include="Assets\Scripts\Single_Responsibility\Logger.cs" />
-     <Compile Include="Assets\Scripts\Single_Responsibility\CheckInput.cs" />
-     <Compile Include="Assets\Scripts\Single_Responsibility\ColorChanger.cs" />
-     <Compile Include="Assets\Scripts\Open–closed\Coin.cs" />
-     <Compile Include="Assets\Scripts\Open–closed\ISpecification.cs" />
-     <Compile Include="Assets\Scripts\Open–closed\IFilter.cs" />
-     <Compile Include="Assets\Scripts\Open–closed\FilterObjects.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Crate.cs" />
      <Compile Include="Assets\Scripts\Liskov_Substitution\Instantiater.cs" />
-     <Compile Include="Assets\Scripts\Liskov_Substitution\GeoObject.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\IFilter.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Apple.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Coin.cs" />
      <Compile Include="Assets\Scripts\Liskov_Substitution\Circle.cs" />
-     <Compile Include="Assets\Scripts\Liskov_Substitution\Square.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\ItemInterfaces.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\CheckInput.cs" />
+     <Compile Include="Assets\Scripts\Interface_Segregation\Wand.cs" />
+     <Compile Include="Assets\Scripts\Liskov_Substitution\GeoObject.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\Logger.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\ISpecification.cs" />
      <Compile Include="Assets\Scripts\Liskov_Substitution\React.cs" />
      <Compile Include="Assets\Scripts\Interface_Segregation\IPickableItem.cs" />
-     <Compile Include="Assets\Scripts\Interface_Segregation\Crate.cs" />
-     <Compile Include="Assets\Scripts\Interface_Segregation\ItemInterfaces.cs" />
-     <Compile Include="Assets\Scripts\Interface_Segregation\Coin.cs" />
      <Compile Include="Assets\Scripts\Interface_Segregation\Rock.cs" />
-     <Compile Include="Assets\Scripts\Interface_Segregation\Wand.cs" />
-     <Compile Include="Assets\Scripts\Interface_Segregation\Apple.cs" />
+     <Compile Include="Assets\Scripts\Single_Responsibility\ColorChanger.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\Coin.cs" />
+     <Compile Include="Assets\Scripts\Liskov_Substitution\Square.cs" />
+     <Compile Include="Assets\Scripts\Open–closed\FilterObjects.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\IAggregate.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\FallingObject.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\Lootable.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\Consumable.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\Spendable.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\Instantiater.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\AggregatorLootables.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\AggregatorConsumables.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\AggregatorWorth.cs" />
+     <Compile Include="Assets\Scripts\Dependency_Inversion_Principle\Destroyer.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
